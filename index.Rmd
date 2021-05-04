@@ -1,0 +1,11 @@
+---
+title: "Project Infographic"
+params:
+  #svg: "svg/cinms_pelagic.svg"
+  svg: "svg/infografico.svg"
+  #csv: "svg/svg_links.csv"
+  csv: "svg/svg_links.csv"
+---
+
+
+```{r svg, child = '_svg-html_child.Rmd'}
